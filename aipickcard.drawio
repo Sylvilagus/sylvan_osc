@@ -1,1 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T11:12:49.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.20" etag="UI9AfOnHqZ7Kk7gjIP5m" type="github"><diagram name="第 1 页" id="3ul36k9jk4oqwYASkcxH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-01T13:55:24.244Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="yLKfKKniOuqZt_ZOK017" version="20.8.20" type="github">
+  <diagram name="第 1 页" id="3ul36k9jk4oqwYASkcxH">
+    <mxGraphModel dx="1242" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4YbsQSqGWxiNGzrhUzHQ-1" target="4YbsQSqGWxiNGzrhUzHQ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="228" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-22" value="方法调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4YbsQSqGWxiNGzrhUzHQ-21">
+          <mxGeometry x="-0.1857" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-1" value="小米智能卡APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-23" value="广播" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.682;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4YbsQSqGWxiNGzrhUzHQ-2" target="4YbsQSqGWxiNGzrhUzHQ-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="275" y="240" />
+              <mxPoint x="275" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-2" value="认知引擎SDK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-3" value="认知引擎进程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4YbsQSqGWxiNGzrhUzHQ-3" target="4YbsQSqGWxiNGzrhUzHQ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="410" as="sourcePoint" />
+            <mxPoint x="150" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-15" value="IPC / 广播" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4YbsQSqGWxiNGzrhUzHQ-6">
+          <mxGeometry x="0.0143" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-8" value="算法SDK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-9" value="地理围栏SDK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="380" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-10" value="WIFI、蓝牙等&lt;br&gt;系统服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="380" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4YbsQSqGWxiNGzrhUzHQ-10" target="4YbsQSqGWxiNGzrhUzHQ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="500" as="sourcePoint" />
+            <mxPoint x="160" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-16" value="IPC &lt;br&gt;/ 广播" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4YbsQSqGWxiNGzrhUzHQ-11">
+          <mxGeometry y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4YbsQSqGWxiNGzrhUzHQ-3" target="4YbsQSqGWxiNGzrhUzHQ-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="480" as="sourcePoint" />
+            <mxPoint x="370" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-17" value="方法调用&lt;br&gt;&amp;nbsp;/ 回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4YbsQSqGWxiNGzrhUzHQ-13">
+          <mxGeometry x="-0.025" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4YbsQSqGWxiNGzrhUzHQ-8" target="4YbsQSqGWxiNGzrhUzHQ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="530" as="sourcePoint" />
+            <mxPoint x="150" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-20" value="方法调用 / 回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4YbsQSqGWxiNGzrhUzHQ-14">
+          <mxGeometry x="0.0714" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-18" value="地理围栏&lt;br&gt;相关进程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="380" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4YbsQSqGWxiNGzrhUzHQ-19" value="IPC &lt;br&gt;/ 广播" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4YbsQSqGWxiNGzrhUzHQ-9" target="4YbsQSqGWxiNGzrhUzHQ-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="501" y="506" as="sourcePoint" />
+            <mxPoint x="551" y="456" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
